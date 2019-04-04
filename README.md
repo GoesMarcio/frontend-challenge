@@ -28,13 +28,15 @@ O que será avaliado:
 
 # API
 
-` http://5c9d09be3be4e30014a7d331.mockapi.io/nofaro/api/v1/ `
+`http://5c9d09be3be4e30014a7d331.mockapi.io/nofaro/api/v1/`
 
-| Método | Endpoint | Descrição |
-| GET | /person | Lista de pessoas |
-| GET | /person/:id | Detalhes de uma pessoa |
-| POST | /person | Criação de uma pessoa |
-| PUT | /person/:id | Edição de uma pessoa |
+| Método | Endpoint    | Descrição |
+| ------ | ----------- | --------- |
+| GET    | /person     | Lista de pessoas |
+| GET    | /person/:id | Detalhes de uma pessoa |
+| POST   | /person     | Criação de uma pessoa |
+| PUT    | /person/:id | Edição de uma pessoa |
 | DELETE | /person/:id | Exclusão de uma pessoa |
+
 
 **Bom teste!**
