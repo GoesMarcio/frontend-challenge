@@ -28,7 +28,7 @@ O que será avaliado:
 
 # API
 
-`http://5c9d09be3be4e30014a7d331.mockapi.io/nofaro/api/v1/`
+`http://5c9d09be3be4e30014a7d331.mockapi.io/nofaro/api/v1`
 
 | Método | Endpoint    | Descrição |
 | ------ | ----------- | --------- |
