@@ -6,13 +6,9 @@ Leia atentamente as instruções abaixo e não hesite em entrar em contato com a
 
 Criar uma aplicação que contenha​:
 
-Uma lista paginada de pessoas:
-    - Com nome e e-mail
-    - Os nomes devem estar em ordem alfabética
-    - A partir da lista, deverá ser possível remover e alterar as informações das pessoas
+Uma página com uma lista de pessoas contendo nome e e-mail, os nomes devem estar em ordem alfabética e, a partir da lista, deverá ser possível remover e alterar as informações das pessoas.
 
-Uma página com os detalhes de um pessoa específica
-Os seguintes dados devem ser apresentados na página: foto, nome, e-mail e data de cadastro
+Uma página com os detalhes de um pessoa específica. Os seguintes dados devem ser apresentados na página: foto, nome, e-mail e data de cadastro.
 
 Regras:
  - Layout responsivo seguindo estilo das telas do diretório [images](images)
