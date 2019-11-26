@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sistema de Gerenciamento de usuários</title>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+    <link rel="stylesheet" href="assets/css/principal.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/waves.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery-confirm.css" type="text/css">
+    <script src="https://kit.fontawesome.com/d7b71b821f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/waves.min.js?v=0.7.6"></script>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/jquery-confirm.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+    </header>
+    <main>
+        <section :is="currentComponent" v-on:event_child="changeComponent"></section>
+    </main>
+</body>
+<script type="text/javascript" src="assets/js/principal.js"></script>
+</html>

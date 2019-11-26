@@ -1,0 +1,42 @@
+.modal{
+    background: rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal .box{
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    width: 320px;
+    font-weight: 600;
+    color: #da3e52;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.modal .box .buttons{
+    margin-top: 20px;
+}
+.modal .box .buttons button{
+    background: #da3e52;
+    border-radius: 100px;
+    padding: 5px 20px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin: auto 5px;
+}
+.modal .box .buttons button.white{
+    background: #fff;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #da3e52;
+    -moz-box-shadow: inset 0px 0px 0px 1px #da3e52;
+    box-shadow: inset 0px 0px 0px 1px #da3e52;
+    color: #da3e52;
+}
